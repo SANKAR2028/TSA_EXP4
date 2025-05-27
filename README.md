@@ -27,8 +27,7 @@ plot_acf and plot_pacf.
 ### PROGRAM:
 
 ```
-Name: Naveenkumar M
-register number: 212224230182
+
 
 
 import pandas as pd
