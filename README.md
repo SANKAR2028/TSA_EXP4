@@ -29,23 +29,6 @@ plot_acf and plot_pacf.
 ```
 
 
-
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-from statsmodels.tsa.arima_process import ArmaProcess
-from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
-import warnings
-warnings.filterwarnings('ignore')
-
-# Load the dataset
-data = pd.read_csv('powerconsumption.csv')
-
-# Use the 'Temperature' column (remove the leading space)
-close_prices = data['Temperature'].dropna()
-
-plt.rcParams['figure.figsize'] = [10, 7.5]
-
 # Simulate ARMA(1,1) Process
 # Step 1: Import necessary libraries
 import pandas as pd
